@@ -73,12 +73,31 @@ footer>a>img {
     width: 70px;
 }
 
-
 .main {
     display: flex;
     flex-grow: 2;
     padding: 2rem;
     background-color: rgb(253, 255, 246);
+}
+
+#edu {
+    display: none;
+}
+
+#edu>li {
+    border-bottom: 1px dotted black;
+}
+
+#exp {
+    display: none;
+}
+
+#exp>li {
+    border-bottom: 1px dotted black;
+}
+
+ul>li>h3, ul>li>h4 {
+    display: inline;
 }
 
 .text {
@@ -89,8 +108,9 @@ footer>a>img {
     .mainContent {
         flex-direction: column;
     }
-    footer{
+    footer {
         flex-direction: row;
         align-items: center;
+        border-left: none;
     }
 }
