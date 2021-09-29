@@ -96,6 +96,27 @@ footer>a>img {
     border-bottom: 1px dotted black;
 }
 
+#repos {
+    display: none;
+}
+
+#repos>a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #3f6138;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+#repos>a:hover, a:active {
+    background-color: rgb(38, 65, 34);
+    color: white;
+  }
+
 ul>li>h3, ul>li>h4 {
     display: inline;
 }
